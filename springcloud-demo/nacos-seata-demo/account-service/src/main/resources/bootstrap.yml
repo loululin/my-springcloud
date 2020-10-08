@@ -1,6 +1,6 @@
 spring:
-  nacos-host: 192.168.0.36
-  nacos-port: 9090
+  nacos-host: 192.168.0.33
+  nacos-port: 8848
   main:
     allow-bean-definition-overriding: true
   application:

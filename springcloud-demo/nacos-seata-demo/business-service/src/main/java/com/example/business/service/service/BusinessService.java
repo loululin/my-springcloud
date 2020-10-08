@@ -38,5 +38,9 @@ public class BusinessService {
         storageFeignClient.deduct(commodityCode, orderCount);
 
         orderFeignClient.create(userId, commodityCode, orderCount);
+        logger.info("hello world");
+        int aa = 1 / 0;
+        logger.info("hello world");
+
     }
 }

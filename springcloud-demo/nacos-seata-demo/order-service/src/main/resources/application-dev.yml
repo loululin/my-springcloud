@@ -31,7 +31,6 @@ spring:
     allow-bean-definition-overriding: true
 
 mybatis-plus:
-  typeAliasesPackage: 'com.seata.example.order.entity'
   global-config:
     db-config:
       field-strategy: not-empty
@@ -54,7 +53,7 @@ seata:
     type: nacos
     nacos:
       namespace:
-      serverAddr: 192.168.0.36:9090
+      serverAddr: 192.168.0.33:8848
       group: SEATA_GROUP
       userName: "nacos"
       password: "nacos"
@@ -62,7 +61,7 @@ seata:
     type: nacos
     nacos:
       application: seata-server
-      server-addr: 192.168.0.36:9090
+      server-addr: 192.168.0.33:8848
       namespace:
       userName: "nacos"
       password: "nacos"
